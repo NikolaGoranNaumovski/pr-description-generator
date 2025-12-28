@@ -1,4 +1,4 @@
-import { Terminal, GitBranch, Sparkles } from "lucide-react";
+import { Terminal, GitBranch } from "lucide-react";
 import { PRGenerator } from "./components/PRGenerator";
 
 export default function App() {
@@ -43,14 +43,10 @@ export default function App() {
         {/* Footer */}
         <footer className="border-t border-green-900/30 bg-black/40 backdrop-blur-sm bottom-0 w-full absolute">
           <div className="max-w-6xl mx-auto px-6 py-6">
-            <div className="flex items-center justify-between text-sm text-green-700">
+            <div className="flex items-center justify-center text-sm text-green-700">
               <div className="flex items-center gap-2">
                 <GitBranch className="w-4 h-4" />
-                <span>Built for developers, by developers</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Sparkles className="w-4 h-4 text-cyan-500" />
-                <span className="text-cyan-600">AI-Powered</span>
+                <span>Built for developers, by developers - in this case @nnaumovski :)</span>
               </div>
             </div>
           </div>
